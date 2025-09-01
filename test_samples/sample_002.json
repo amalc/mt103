@@ -1,0 +1,67 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "HPGLIFRIBXXX",
+    "Session": "4196",
+    "Sequence_No": "528765",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "OFLCJPORBXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0002-Q0GQJN5N"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "SPRI"
+      },
+      "F26T": {
+        "F26T_TransType": "K90"
+      },
+      "F32A": {
+        "F32A_Date": "2021-01-05",
+        "F32A_Curr": "USD",
+        "F32A_Amount": "338602.00"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/538142",
+        "F50F_NameAddr": "1/ACME CORP\n6/HK/ISSUER/683105"
+      },
+      "F52A": {
+        "F52A_BIC": "HVUIEVERBXX"
+      },
+      "F53B": {
+        "F53B_Account": "/43742242116639"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/685018184",
+        "F59_Name_addr_Party": "GLOBAL TECH INC\nOSLO\nFR"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 44642, 20129, 93019"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "BEN"
+      },
+      "A3": {
+        "F71F": [
+          {
+            "F71F_Curr": "JPY",
+            "F71F_Amount": "230.64"
+          },
+          {
+            "F71F_Curr": "GBP",
+            "F71F_Amount": "72.92"
+          }
+        ]
+      },
+      "F71G": {
+        "F71G_ReceiverCharges": "HKD108,92"
+      },
+      "F77B": {
+        "F77B_Narrative": "/ORDERRES/FR//REGULATORY INFO\n//ADDITIONAL DETAILS"
+      }
+    }
+  }
+}

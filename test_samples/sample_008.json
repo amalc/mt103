@@ -1,0 +1,40 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "JBLPLKTDXXXX",
+    "Session": "6028",
+    "Sequence_No": "877546",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "OEVXQKEGXXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0008-BRFOOEDG"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "HOLD"
+      },
+      "F32A": {
+        "F32A_Date": "2021-07-07",
+        "F32A_Curr": "NOK",
+        "F32A_Amount": "642751.22"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/120625",
+        "F50F_NameAddr": "1/GLOBAL TECH INC\n6/SG/ISSUER/215160"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/824258890",
+        "F59_Name_addr_Party": "MICHAEL DAVIS\nFRANKFURT\nSE"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 94508, 98354, 77723, 53494"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "OUR"
+      }
+    }
+  }
+}

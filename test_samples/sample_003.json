@@ -1,0 +1,56 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "HSQSYLGZAXXX",
+    "Session": "7544",
+    "Sequence_No": "622564",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "TMJDFYJBXXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0003-01EZ5J5E"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "CRTS"
+      },
+      "F32A": {
+        "F32A_Date": "2021-06-01",
+        "F32A_Curr": "JPY",
+        "F32A_Amount": "725835.41"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/559617",
+        "F50F_NameAddr": "1/DAVID JOHNSON\n6/NL/ISSUER/723791"
+      },
+      "F52D": {
+        "F52D_AccountId": "//ACC752991",
+        "F52D_NameAddr": "MARIA JOHNSON BANK\nLONDON\nCH"
+      },
+      "F53B": {
+        "F53B_Account": "/18852874609806"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/173146793",
+        "F59_Name_addr_Party": "ACME CORP\nCOPENHAGEN\nFR"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 25161, 39090, 98029"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "SHA"
+      },
+      "F71G": {
+        "F71G_ReceiverCharges": "CAD10,09"
+      },
+      "F72": {
+        "F72_General": "/REC/INSTRUCTIONS FOR\n//PROCESSING THIS PAYMENT\n//AS REQUESTED"
+      },
+      "F77B": {
+        "F77B_Narrative": "/ORDERRES/JP//REGULATORY INFO\n//ADDITIONAL DETAILS"
+      }
+    }
+  }
+}

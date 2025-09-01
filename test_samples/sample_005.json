@@ -1,0 +1,68 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "HRUDGCQPAXXX",
+    "Session": "5903",
+    "Sequence_No": "925177",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "IFNTTZZHAXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0005-HWSJN0DW"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "CRED"
+      },
+      "F26T": {
+        "F26T_TransType": "K90"
+      },
+      "F32A": {
+        "F32A_Date": "2022-09-26",
+        "F32A_Curr": "AUD",
+        "F32A_Amount": "246656.83"
+      },
+      "F33B": {
+        "F33B_Curr": "HKD",
+        "F33B_Amount": "496304.64"
+      },
+      "F36": {
+        "F36_ExchangeRate": "1,8627"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/736043",
+        "F50F_NameAddr": "1/GLOBAL TECH INC\n6/JP/ISSUER/779692"
+      },
+      "F53B": {
+        "F53B_Account": "/53025915319636"
+      },
+      "F56D": {
+        "F56D_Intermediary": "MICHAEL BROWN BANK\nCOPENHAGEN"
+      },
+      "F57D": {
+        "F57D_AccountWithInstitution": "//SC112954"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/982563427",
+        "F59_Name_addr_Party": "ACME CORP\nTORONTO\nDK"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 92046, 55890, 45298"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "OUR"
+      },
+      "A3": {
+        "F71F": {
+          "F71F_Curr": "CAD",
+          "F71F_Amount": "168.05"
+        }
+      },
+      "F72": {
+        "F72_General": "/ACC/INSTRUCTIONS FOR\n//PROCESSING THIS PAYMENT\n//AS REQUESTED"
+      }
+    }
+  }
+}

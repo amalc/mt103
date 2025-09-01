@@ -1,0 +1,90 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "INGTLTZYAXXX",
+    "Session": "8589",
+    "Sequence_No": "920273",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "SXUKNGFWAXXX",
+    "Message_Priority": "U",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0004-QP3KRJTO"
+      },
+      "A1": {
+        "F13C": [
+          {
+            "F13C_Code": "SNDTIME",
+            "F13C_Time": "19:31:00",
+            "F13C_Sign": "-",
+            "F13C_Offset": "07:55:00"
+          },
+          {
+            "F13C_Code": "CLSTIME",
+            "F13C_Time": "09:08:00",
+            "F13C_Sign": "-",
+            "F13C_Offset": "11:30:00"
+          }
+        ]
+      },
+      "F23B": {
+        "F23B_BankOpCode": "SPAY"
+      },
+      "F26T": {
+        "F26T_TransType": "K90"
+      },
+      "F32A": {
+        "F32A_Date": "2022-03-14",
+        "F32A_Curr": "SGD",
+        "F32A_Amount": "297078.47"
+      },
+      "F33B": {
+        "F33B_Curr": "GBP",
+        "F33B_Amount": "800116.43"
+      },
+      "F36": {
+        "F36_ExchangeRate": "1,4601"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/273291",
+        "F50F_NameAddr": "1/INTERNATIONAL TRADE LLC\n6/BE/ISSUER/803564"
+      },
+      "F52A": {
+        "F52A_BIC": "QPYPEIMHBXX"
+      },
+      "F57C": {
+        "F57C_AccountWithInstitution": "//SC180700"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/179102999",
+        "F59_Name_addr_Party": "MICHAEL WILLIAMS\nCOPENHAGEN\nGB"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 39212, 28738, 75846, 45462, 14680"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "OUR"
+      },
+      "A3": {
+        "F71F": [
+          {
+            "F71F_Curr": "USD",
+            "F71F_Amount": "194.84"
+          },
+          {
+            "F71F_Curr": "SGD",
+            "F71F_Amount": "13.02"
+          }
+        ]
+      },
+      "F71G": {
+        "F71G_ReceiverCharges": "HKD193,05"
+      },
+      "F72": {
+        "F72_General": "/INS/INSTRUCTIONS FOR\n//PROCESSING THIS PAYMENT\n//AS REQUESTED"
+      }
+    }
+  }
+}

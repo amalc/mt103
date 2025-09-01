@@ -1,0 +1,121 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "MAXIMAL0AXXX",
+    "Session": "9999",
+    "Sequence_No": "999999",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "MAXIMAL0XXXX",
+    "Message_Priority": "U",
+    "A": {
+      "F20": {
+        "F20_TRN": "MAXIMAL-REFERENCE-001"
+      },
+      "A1": {
+        "F13C": [
+          {
+            "F13C_Code": "CLSTIME",
+            "F13C_Time": "08:00:00",
+            "F13C_Sign": "+",
+            "F13C_Offset": "01:00:00"
+          },
+          {
+            "F13C_Code": "RNCTIME",
+            "F13C_Time": "09:00:00",
+            "F13C_Sign": "+",
+            "F13C_Offset": "01:00:00"
+          },
+          {
+            "F13C_Code": "SNDTIME",
+            "F13C_Time": "10:00:00",
+            "F13C_Sign": "+",
+            "F13C_Offset": "01:00:00"
+          }
+        ]
+      },
+      "F23B": {
+        "F23B_BankOpCode": "SPRI"
+      },
+      "F23E": {
+        "F23E_InstructionCode": "PHOB/123.456.789"
+      },
+      "F26T": {
+        "F26T_TransType": "K90"
+      },
+      "F32A": {
+        "F32A_Date": "2024-01-01",
+        "F32A_Curr": "USD",
+        "F32A_Amount": "999999999.99"
+      },
+      "F33B": {
+        "F33B_Curr": "EUR",
+        "F33B_Amount": "888888888.88"
+      },
+      "F36": {
+        "F36_ExchangeRate": "1,1234"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/123456789",
+        "F50F_NameAddr": "1/MAXIMUM CORPORATION INTERNATIONAL\n2/HEADQUARTERS BUILDING SUITE 1000\n3/US/NEW YORK/10001\n4/1980-01-01\n5/US\n6/US/PASSPORT/A12345678"
+      },
+      "F51A": {
+        "F51A_SendingInstitution": "SENDUS33XXX"
+      },
+      "F52D": {
+        "F52D_AccountId": "//CH987654321",
+        "F52D_NameAddr": "ORDERING BANK NAME\n123 MAIN STREET\nZURICH\nSWITZERLAND"
+      },
+      "F53B": {
+        "F53B_Account": "/98765432109876543210"
+      },
+      "F54A": {
+        "F54A_AccountId": "/C/111222333",
+        "F54A_BIC": "RCVRUS44XXX"
+      },
+      "F56A": {
+        "F56A_Intermediary": "INTRUS55XXX"
+      },
+      "F57C": {
+        "F57C_AccountWithInstitution": "//SC999999"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/999888777",
+        "F59_Name_addr_Party": "BENEFICIARY MAXIMUM NAME\n999 END STREET\nLONDON\nUNITED KINGDOM"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/240101, MAXIMUM INVOICE\nNUMBERS 11111, 22222, 33333,\n44444, 55555, 66666, 77777,\n88888, 99999, 00000"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "OUR"
+      },
+      "A3": {
+        "F71F": [
+          {
+            "F71F_Curr": "USD",
+            "F71F_Amount": "100.00"
+          },
+          {
+            "F71F_Curr": "EUR",
+            "F71F_Amount": "50.00"
+          },
+          {
+            "F71F_Curr": "GBP",
+            "F71F_Amount": "25.00"
+          }
+        ]
+      },
+      "F71G": {
+        "F71G_ReceiverCharges": "CHF75,50"
+      },
+      "F72": {
+        "F72_General": "/REC/MAXIMUM INSTRUCTIONS\n//FOR PROCESSING THIS\n//VERY IMPORTANT PAYMENT\n//WITH MULTIPLE LINES\n//OF DETAILED INSTRUCTIONS"
+      },
+      "F77B": {
+        "F77B_Narrative": "/ORDERRES/US//MAXIMUM REGULATORY\n//REPORTING INFORMATION\n//WITH MULTIPLE LINES\n//OF COMPLIANCE DATA"
+      }
+    },
+    "Trailer": "{MAC:FFFFFFFF"
+  }
+}

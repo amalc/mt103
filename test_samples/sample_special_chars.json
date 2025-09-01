@@ -1,0 +1,39 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "SPECIAL0AXXX",
+    "Session": "0000",
+    "Sequence_No": "000001",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "SPECIAL0XXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "SPEC-001/2024"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "CRED"
+      },
+      "F32A": {
+        "F32A_Date": "2024-02-29",
+        "F32A_Curr": "EUR",
+        "F32A_Amount": "12345.67"
+      },
+      "F50K": {
+        "F50K_OrderingCustomer": "/ACC-123/456\nO'MALLEY & SONS, LTD.\n123 RUE DE LA PAIX\nPARIS, FRANCE"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/789-ABC-XYZ",
+        "F59_Name_addr_Party": "MÜLLER-SCHMIDT GMBH & CO.\nSTRAßE 456\nMÜNCHEN"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/RFB/2024-SP-ÄÖÜ"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "SHA"
+      }
+    }
+  }
+}

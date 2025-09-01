@@ -1,0 +1,78 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "PTSBCHSSAXXX",
+    "Session": "0001",
+    "Sequence_No": "000001",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "PTSBCHSSXXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "10-103-NVR-0033"
+      },
+      "A1": {
+        "F13C": {
+          "F13C_Code": "CLSTIME",
+          "F13C_Time": "09:45:00",
+          "F13C_Sign": "+",
+          "F13C_Offset": "01:00:00"
+        }
+      },
+      "F23B": {
+        "F23B_BankOpCode": "SPRI"
+      },
+      "F26T": {
+        "F26T_TransType": "K90"
+      },
+      "F32A": {
+        "F32A_Date": "2009-11-20",
+        "F32A_Curr": "EUR",
+        "F32A_Amount": "15000.11"
+      },
+      "F33B": {
+        "F33B_Curr": "AUD",
+        "F33B_Amount": "16500.00"
+      },
+      "F36": {
+        "F36_ExchangeRate": "0,91"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/123456",
+        "F50F_NameAddr": "1/Name of the ordering customer\n6/US/Issuer/123456"
+      },
+      "F52D": {
+        "F52D_AccountId": "//CH123456",
+        "F52D_NameAddr": "ORDERING INSTITUTION NAME\nSYDNEY\nAUSTRALIA\n987456"
+      },
+      "F54A": {
+        "F54A_AccountId": "/C/987654321",
+        "F54A_BIC": "SWHQBEBB"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/456123",
+        "F59_Name_addr_Party": "BENEFICIARY CUSTOMER NAME\nSYDNEY\nAUSTRALIA"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/070717, 12345, INVOICE\nNUMBERS 24578, 54789,\n354789, 545884, 578822"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "BEN"
+      },
+      "A3": {
+        "F71F": {
+          "F71F_Curr": "AUD",
+          "F71F_Amount": "150.00"
+        }
+      },
+      "F72": {
+        "F72_General": "/REC/INSTRUCTIONS ARE FOR\n//RECEIVER OF THE MESSAGE\n//TO EXECUTE\n//THE PAYMENT\n//AS PER INSTRUCTION"
+      },
+      "F77B": {
+        "F77B_Narrative": "/ORDERRES/US//ADDITONAL INFO\n//CONTINUATION OF ADDITIONAL INFO\n//CONTINUATION"
+      }
+    }
+  }
+}

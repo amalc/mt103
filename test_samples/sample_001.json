@@ -1,0 +1,52 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "EFFGWMRQXXXX",
+    "Session": "3719",
+    "Sequence_No": "203323",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "CBGFUZDYAXXX",
+    "Message_Priority": "U",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0001-HQDC762C"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "SPAY"
+      },
+      "F32A": {
+        "F32A_Date": "2021-05-26",
+        "F32A_Curr": "NOK",
+        "F32A_Amount": "456006.03"
+      },
+      "F50K": {
+        "F50K_OrderingCustomer": "/154557176\nPRIME INDUSTRIES\nPARIS\nDK"
+      },
+      "F53B": {
+        "F53B_Account": "/96060999456133"
+      },
+      "F56A": {
+        "F56A_Intermediary": "GZZCGXTLBXX"
+      },
+      "F57A": {
+        "F57A_AccountWithInstitution": "DXRCWACHBXX"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/807154144",
+        "F59_Name_addr_Party": "JANE JONES\nHONG KONG\nBE"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 89756, 89575, 97600"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "BEN"
+      },
+      "F77B": {
+        "F77B_Narrative": "/ORDERRES/US//REGULATORY INFO\n//ADDITIONAL DETAILS"
+      }
+    },
+    "Trailer": "{MAC:DABDCEC2"
+  }
+}

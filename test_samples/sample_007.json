@@ -1,0 +1,39 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "GFZEJHLQAXXX",
+    "Session": "1143",
+    "Sequence_No": "042841",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "PEODJDVSXXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0007-ACWGI1UH"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "CRED"
+      },
+      "F32A": {
+        "F32A_Date": "2020-01-03",
+        "F32A_Curr": "CHF",
+        "F32A_Amount": "198993.35"
+      },
+      "F50K": {
+        "F50K_OrderingCustomer": "/335429513\nGLOBAL TECH INC\nTOKYO\nSE"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/636096447",
+        "F59_Name_addr_Party": "INTERNATIONAL TRADE LLC\nCOPENHAGEN\nNO"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 56496, 72891, 46343, 34289"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "BEN"
+      }
+    }
+  }
+}

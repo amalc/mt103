@@ -1,0 +1,39 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "FNUCRRWVXXXX",
+    "Session": "9231",
+    "Sequence_No": "631096",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "KAOWJSKDBXXX",
+    "Message_Priority": "U",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0009-WQM931ST"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "HOLD"
+      },
+      "F32A": {
+        "F32A_Date": "2020-10-21",
+        "F32A_Curr": "EUR",
+        "F32A_Amount": "578447.99"
+      },
+      "F50K": {
+        "F50K_OrderingCustomer": "/18931589\nPRIME INDUSTRIES\nTORONTO\nDK"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/654841027",
+        "F59_Name_addr_Party": "ACME CORP\nPARIS\nJP"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 86586, 94322, 95900"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "BEN"
+      }
+    }
+  }
+}

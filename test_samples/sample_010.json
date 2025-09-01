@@ -1,0 +1,39 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "FTMRYWBJXXXX",
+    "Session": "1675",
+    "Sequence_No": "347046",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "ZCPARHIWAXXX",
+    "Message_Priority": "U",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0010-V71Y100X"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "CRED"
+      },
+      "F32A": {
+        "F32A_Date": "2020-08-09",
+        "F32A_Curr": "USD",
+        "F32A_Amount": "396669.99"
+      },
+      "F50K": {
+        "F50K_OrderingCustomer": "/632039309\nJOHN WILLIAMS\nOSLO\nBE"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/729714875",
+        "F59_Name_addr_Party": "MICHAEL MILLER\nBRUSSELS\nSE"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 11423, 35350, 58805"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "OUR"
+      }
+    }
+  }
+}

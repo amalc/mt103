@@ -1,0 +1,40 @@
+{
+  "MT103": {
+    "Application_Id": "F",
+    "Service_Id": "01",
+    "LT_Address": "PBUSWDFGBXXX",
+    "Session": "8295",
+    "Sequence_No": "211356",
+    "IO_ID": "I",
+    "MT": "103",
+    "Recipient": "VVTDSRLIBXXX",
+    "Message_Priority": "N",
+    "A": {
+      "F20": {
+        "F20_TRN": "TX0006-R8P8EJTV"
+      },
+      "F23B": {
+        "F23B_BankOpCode": "SPRI"
+      },
+      "F32A": {
+        "F32A_Date": "2022-04-07",
+        "F32A_Curr": "NOK",
+        "F32A_Amount": "714877.95"
+      },
+      "F50F": {
+        "F50F_PartyIdentifier": "/877691",
+        "F50F_NameAddr": "1/JOHN DAVIS\n6/BE/ISSUER/154278"
+      },
+      "F59": {
+        "F59_ACC_ID_Party": "/452584568",
+        "F59_Name_addr_Party": "JOHN JONES\nNEW YORK\nNL"
+      },
+      "F70": {
+        "F70_PaymentDetails": "/INV/250831, INVOICE\nNUMBERS 55022, 71971, 16266"
+      },
+      "F71A": {
+        "F71A_ChargesCode": "BEN"
+      }
+    }
+  }
+}
