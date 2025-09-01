@@ -32,7 +32,8 @@ def parse_application_header(header: str) -> Dict[str, str]:
                 "Message_Priority": match.group("priority")
             }
     elif header.startswith("O"):
-        pattern = r"O(?P<mt>\d{3})(?P<input_time>\d{10})(?P<mir>[A-Z0-9]{28})(?P<priority>[A-Z])"
+        # Output format has more fields and different structure
+        pattern = r"O(?P<mt>\d{3})(?P<input_time>\d{10})(?P<mir>[A-Z0-9]{28})(?P<output_date>\d{6})(?P<output_time>\d{4})(?P<priority>[A-Z])"
         match = re.match(pattern, header)
         if match:
             return {
@@ -40,7 +41,19 @@ def parse_application_header(header: str) -> Dict[str, str]:
                 "MT": match.group("mt"),
                 "Input_Time": match.group("input_time"),
                 "MIR": match.group("mir"),
+                "Output_Date": match.group("output_date"),
+                "Output_Time": match.group("output_time"),
                 "Message_Priority": match.group("priority")
+            }
+        # Try simpler pattern if the full one doesn't match
+        pattern = r"O(?P<mt>\d{3}).*(?P<priority>[A-Z])$"
+        match = re.match(pattern, header)
+        if match:
+            return {
+                "IO_ID": "O",
+                "MT": match.group("mt"),
+                "Message_Priority": match.group("priority"),
+                "MIR": header[4:32] if len(header) > 32 else ""
             }
     return {}
 
@@ -328,7 +341,7 @@ def mt103_to_json(mt103_message: str) -> Dict[str, Any]:
         result["MT103"].update(app_data)
     
     # Block 3 - User Header (optional)
-    match = re.search(r"{3:([^}]+)}", mt103_message)
+    match = re.search(r"{3:((?:{[^}]+})+)}", mt103_message)
     if match:
         blocks[3] = match.group(1)
         user_data = parse_user_header(blocks[3])

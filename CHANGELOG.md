@@ -1,5 +1,35 @@
 # Changelog
 
+## 2.0.0
+
+* **Major Feature Release**: JSON Conversion and CLI Tools
+* Added complete MT103 to JSON conversion module (`mt103_json.py`)
+  * Parse all 5 MT103 blocks (Basic, Application, User, Text, Trailer)
+  * Support for 30+ MT103 fields with specialized parsers
+  * Handle repeatable fields (13C, 71F) as arrays
+  * Convert dates to ISO format (YYYY-MM-DD)
+  * Convert amounts to decimal notation
+* Added command-line interface (`mt103_to_json.py`)
+  * Single file and batch processing modes
+  * JSON validation and pretty-printing options
+  * Verbose mode for debugging
+* Added test data generator (`generate_test_data.py`)
+  * Generate diverse MT103 samples with realistic data
+  * Edge case samples (minimal, maximal, special characters)
+  * Multiple currencies and field combinations
+* Added comprehensive test suite (`tests_json.py`)
+  * 15+ unit and integration tests
+  * 100% function coverage
+  * File I/O and batch processing tests
+* Documentation improvements:
+  * Complete rewrite of README.rst with examples
+  * Added module architecture documentation
+  * Created RELEASE_NOTES.md with detailed changes
+* Bug fixes:
+  * Fixed user header parsing for nested braces
+  * Fixed application header parsing for output messages
+  * Improved field extraction for multi-line content
+
 ## 1.1.0
 
 * Added support for a few more portions of the `text` section:
